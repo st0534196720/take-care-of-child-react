@@ -59,7 +59,7 @@ export default function ShowKids() {
     } else {
         return (
             <div className={classes.root}>
-                <GridList spacing={10} cols={6} cellHeight={200} cellWidth={200} className={classes.gridList}>
+                <GridList spacing={10} cols={6} cellHeight={200} cellwidth={200} className={classes.gridList}>
                     {/* <GridListTile key="Subheader" cols={2} style={{ height: 'auto' }}>
                         <ListSubheader component="div">Kids</ListSubheader>
                     </GridListTile> */}

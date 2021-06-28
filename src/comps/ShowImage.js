@@ -19,7 +19,7 @@ export default function ShowImage({ image }) {
 
     return (
         <Grid item>            
-                <img alt="kid" src={image} className={classes.image} />               
+                <img alt="kid" src={process.env.PUBLIC_URL + image} className={classes.image} />               
         </Grid>
     );
 }
